@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick=" toggleMenu()">Anasayfa</a></li>
+            <li>
+                <a href="#about" onclick=" toggleMenu()">Hakkımda</a>
+            </li>
+            <li>
+                <a href="#services" onclick=" toggleMenu()">Hizmetler</a>
+            </li>
+            <li>
+                <a href="#work" onclick=" toggleMenu()">İş</a>
+            </li>
+            <li>
+                <a href="#testimonial" onclick=" toggleMenu()">Referans</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=" toggleMenu()">İletişim</a>
+            </li>
+        </ul>
+    </header>
+    <div id="scroll-progress"></div>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2 class="sol">Merhaba, Ben <br> <span>Emirhan.</span></h2>
+            <h3>Ben bir <span class="sag"></span></h3>
+                    <a href="#about" class="btn">Hakkımda</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Hakkımda</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Ben bir frontend Dev'im</h3>
+                <p>Kendimi sürekli geliştiren bir yazılımcı adayıyım. Sürekli kendime bir şeyler katmak isteyen, bilgiye
+                    aç bir kişiliğe sahibim.
+                </p>
+            </div>
+            <div class="w50">
+                <img src="http://mediatrend.mediamarkt.com.tr/wp-content/uploads/2017/02/2017_subat_03.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Hakkımda</h2>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_dlw10cqe.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            <p>Html,Css (Sass),Javascript,React bilgilerine sahibim. Kendimi, karşılaştığım bütün web sitelerini
+                yapmaya çalışarak geliştiriyorum. </p>
+        </div>
+        <div class="content">
+            <div class="servicesBx bir">
+                <i class="fa-brands fa-css3"></i>
+                <h2>Css</h2>
+                <p>yazı varmış gibi davranın</p>
+            </div>
+            <div class="servicesBx  iki">
+                <i class="fa-brands fa-sass"></i>
+                <h2>Sass</h2>
+                <p>yazı varmış gibi davranın</p>
+            </div>
+            <div class="servicesBx uc ">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_yMrzAd.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+                <h2>React</h2>
+                <p>yazı varmış gibi davranın</p>
+            </div>
+            <div class="servicesBx dort">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+                <h2>Code</h2>
+                <p>yazı varmış gibi davranın</p>
+            </div>
+            <div class="servicesBx bes">
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web Design</h2>
+                <p>yazı varmış gibi davranın</p>
+            </div>
+            <div class="servicesBx alti">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_wuuqhfmi.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+                <h2>HTML</h2>
+                <p>yazı varmış gibi davranın</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Son Çalışmam</h2>
+            <p>Daha üzerinde çalışıyorum :)</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <h1>Quiz projem için resme tıkla</h1>
+                <a href="/quiz-app/index.html"><img width="100%" src="https://blog.hubspot.com/hubfs/google-quiz.jpg" alt=""></a>
+            </div>
+            <div class="workBx">
+                <h1>Çeviri projem için resme tıkla</h1>
+                <a href="/translate/index.html"><img width="429" height="285" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPsx0yCx05-S2ZBE1GdPpdFo90NXjvsHneXw&usqp=CAU" alt=""></a>
+            </div>
+<!-----https://www.vargonen.com/blog/wp-content/uploads/2021/02/Google-Translate.jpg-->
+            <div class="workBx">
+                <img src="images/product3.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/product4.jpg" alt="">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Referans</h2>
+            <p>yazı varmış gibi davranın</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Teyzesi defterdar olan faytonla damda dolaşır</p>
+                <h3>someone famous <br> <span>Yaratıcı tasarımcı</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Teyzesi defterdar olan faytonla damda dolaşır</p>
+                <h3>someone famous <br> <span>Yaratıcı tasarımcı</span></h3>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Bana ulaşın</h2>
+            <p>Teyzesi defterdar olan faytonla damda dolaşır</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>İletişim bilgileri</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-location"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Adres</h3>
+                            <p>Kahramanmaraş</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Telefon</h3>
+                            <p>-</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>E-mail</h3>
+                            <p>bjk46emirhan@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="formBx">
+                    <form>
+                        <h3>Bana mesaj at</h3>
+                        <input type="text" name="" id="" placeholder="Adınız">
+                        <input type="email" name="" id="" placeholder="Email">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mesajınız..."></textarea>
+                        <input type="submit" value="Gönder">
+                    </form>
+                </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p class="element">Copyright © 2022 Emirhan. Bütün hakları saklıdır.</p>
+    </div>
+    <script>
+        const scrollProgress = document.getElementById('scroll-progress');
+const height =
+  document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+window.addEventListener('scroll', () => {
+  const scrollTop =
+    document.body.scrollTop || document.documentElement.scrollTop;
+  scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script>
+  var typed = new Typed('.sag', {
+  strings: [" Web Tasarımcısıyım.", " Frontend Developer'ım.","Öğrenciyim."],
+  typeSpeed: 100,
+  backSpeed:60,
+  loop:true
+});
+    </script>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0)
+        })
+
+        function toggleMenu(){
+            var menuToggle=document.querySelector('.toggle');
+            var menu=document.querySelector('.menu');
+            menuToggle.classList.toggle('active')
+            menu.classList.toggle('active')
+        }
+    </script>
+    <script>
+        ScrollReveal().reveal('.content', { scale: 0.85 });
+        window.sr = ScrollReveal();
+        sr.reveal('.sol', {
+            origin: 'left',
+            duration: 500,
+            distance: '25rem',
+            delay: 300
+        })
+        sr.reveal('.sag', {
+            origin: 'right',
+            duration: 700,
+            distance: '25rem',
+            delay: 300
+        })
+
+
+        sr.reveal('.bir', {
+            origin: 'top',
+            duration: 900,
+            distance: '25rem',
+            delay: 300
+        })
+        sr.reveal('.iki', {
+            origin: 'top',
+            duration: 1100,
+            distance: '25rem',
+            delay: 300
+        })
+        sr.reveal('.uc', {
+            origin: 'top',
+            duration: 1300,
+            distance: '25rem',
+            delay: 300
+        })
+        sr.reveal('.dort', {
+            origin: 'bottom',
+            duration: 1500,
+            distance: '25rem',
+            delay: 300
+        })
+        sr.reveal('.bes', {
+            origin: 'bottom',
+            duration: 1700,
+            distance: '25rem',
+            delay: 300
+        })
+        sr.reveal('.alti', {
+            origin: 'bottom',
+            duration: 1900,
+            distance: '25rem',
+            delay: 300
+        })
+    </script>
+</body>
+
+</html>
